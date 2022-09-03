@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1 class="titles">ROCK PAPER SCISSOR</h1>
+  <div class="scr">
+      <p id="y_scr"></p>
+      <p id="c_scr"></p>
+      <p id="d_scr"></p>
+  </div>
+  <center><div class="cmd">
+    <p>Please select the hand symbol to play the game</p>
+  </div>
+</center>
+  <div class="selections">
+    <center><h1>YOU</h1>
+    <button class="selection"  data-selection="rock"><img style="width: 120px; position:relative ;" id="rock" src="rock.png"></button>
+    <button class="selection"  data-selection="paper"><img style="width: 120px; position:relative ;" id="paper" src="papper.png"></button>
+    <button class="selection"  data-selection="scissors"><img style="width: 120px; position:relative ;" id="scissors" src="scisser.png"></button>
+  </center>
+  </div>
+
+
+  <div class="selections">
+    <center><h1>COMPUTER</h1>
+      <button class="c_selection"  ><img style="width: 120px; position:relative ;" id="c_rock" src="rock.png"></button>
+      <button class="c_selection"  ><img style="width: 120px; position:relative ;" id="c_paper" src="papper.png"></button>
+      <button class="c_selection"  ><img style="width: 120px; position:relative ;" id="c_scissors" src="scisser.png"></button>
+  </center>
+  </div>
+  <center><div class="results" id="result">
+    <p id="win"></p>
+  </div></center>
+</body>
+</html>
